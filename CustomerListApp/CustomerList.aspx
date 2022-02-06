@@ -13,8 +13,8 @@
                  changeMonth: true,
                  changeYear: true,
                  numberOfMonths: 1,
-                 minDate: null,
-                 maxDate: null,
+                 //minDate: null,
+                 //maxDate: null,
                  dateFormat: "dd/mm/yy"
 
             });
