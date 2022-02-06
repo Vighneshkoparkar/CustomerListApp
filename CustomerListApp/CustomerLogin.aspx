@@ -36,7 +36,7 @@
                         <asp:TextBox ID="TextBox2" TextMode="password" runat="server"></asp:TextBox>  
                     </td>  
                     <td>  
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"   ControlToValidate="TextBox2" ErrorMessage="Please Enter Your word"   ForeColor="Red"></asp:RequiredFieldValidator>  
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"   ControlToValidate="TextBox2" ErrorMessage="Please Enter Your Password"   ForeColor="Red"></asp:RequiredFieldValidator>  
                     </td>  
                 </tr>  
                 <tr>  

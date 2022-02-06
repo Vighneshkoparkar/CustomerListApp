@@ -27,9 +27,6 @@ namespace CustomerListApp
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            con.Open();
-            int i = cmd.ExecuteNonQuery();
-            con.Close();
 
             if (dt.Rows.Count > 0)
             {

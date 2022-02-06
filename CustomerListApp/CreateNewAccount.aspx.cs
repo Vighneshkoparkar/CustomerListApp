@@ -24,9 +24,6 @@ namespace CustomerListApp
             cmd.Parameters.AddWithValue("@username", TextBox1.Text);
             cmd.Parameters.AddWithValue("@Password", TextBox2.Text);
             cmd.Parameters.AddWithValue("@P_FlAG", "I");
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
             con.Open();
             int i = cmd.ExecuteNonQuery();
             con.Close();
