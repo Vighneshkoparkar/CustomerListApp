@@ -86,7 +86,6 @@ namespace CustomerListApp
             if (to != null || to != "")
             {
                 string[] to1 = to.Split(';');
-                //msg.To.Add(new MailAddress(to));
                 for (int i = 0; i < to1.Length; i++)
                 {
                     if (to1[i].Length != 0)
