@@ -115,6 +115,8 @@
     <Content Include="CreateNewAccount.aspx" />
     <Content Include="CustomerList.aspx" />
     <Content Include="CustomerLogin.aspx" />
+    <Content Include="Database\StoreProcedure.txt" />
+    <Content Include="Database\Tables.txt" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
